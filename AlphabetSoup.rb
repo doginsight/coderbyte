@@ -17,3 +17,9 @@ end
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
 AlphabetSoup(STDIN.gets)           
+
+
+
+# 이렇게 깔끔할 수가....
+  str = str.split('').sort.join('')
+  return str
